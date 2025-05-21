@@ -1,6 +1,6 @@
 name: 'Build vk-gl-cts for OpenGL'
 on:
-  workflow_call:
+  push:
 
 jobs:
   build-vk-gl-cts-opengl:
