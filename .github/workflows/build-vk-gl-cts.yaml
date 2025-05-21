@@ -14,7 +14,7 @@ jobs:
         shell: bash
         run: |
           sudo apt update -y
-          sudo apt install -y build-essential cmake ocl-icd-libopencl1 libva2 libva-drm2 libpng-dev libboost-all-dev ninja-build clang ocl-icd-opencl-dev clinfo python3-pip meson glslang-tools pkg-config cmake libvulkan-dev libgl1 mesa-common-dev libglfw3-dev libgles2-mesa-dev wayland-protocols pip3 install opencv-python lxml --break-system-packages
+          sudo apt install -y build-essential cmake ocl-icd-libopencl1 libva2 libva-drm2 libpng-dev libboost-all-dev ninja-build clang ocl-icd-opencl-dev clinfo python3-pip meson glslang-tools pkg-config cmake libvulkan-dev libgl1 mesa-common-dev libglfw3-dev libgles2-mesa-dev wayland-protocols pip3 install opencv-python lxml
 
       - name: Add prebuilt bootloader files
         shell: bash
