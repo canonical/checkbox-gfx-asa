@@ -5,7 +5,7 @@ on:
 jobs:
   build-vk-gl-cts-opengl:
     name: Build VK GL CTS for OpenGL
-    runs-on: [self-hosted, linux, ARM64, noble]
+    runs-on: [self-hosted, linux, ARM64]
     steps:
       - name: Checkout
         uses: actions/checkout@v4
